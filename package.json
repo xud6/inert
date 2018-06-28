@@ -1,6 +1,6 @@
 {
-  "name": "@hapi/inert",
-  "description": "Static file and directory handlers plugin for hapi.js",
+  "name": "@xdq/inert-evbfix",
+  "description": "inert with enigma virtual box fix",
   "version": "5.2.0",
   "repository": "https://github.com/hapijs/inert.git",
   "main": "lib/index.js",
