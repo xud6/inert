@@ -4,6 +4,7 @@
   "version": "5.2.0",
   "repository": "https://github.com/hapijs/inert.git",
   "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "keywords": [
     "file",
     "directory",
