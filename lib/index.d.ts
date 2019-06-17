@@ -1,2 +1,2 @@
-import module = require("inert");
+import module = require("@hapi/inert");
 export = module;
