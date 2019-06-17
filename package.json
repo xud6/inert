@@ -1,7 +1,7 @@
 {
   "name": "@xud6/inert-evbfix",
   "description": "inert with enigma virtual box fix",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "repository": "https://github.com/hapijs/inert.git",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
