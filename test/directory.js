@@ -90,7 +90,7 @@ describe('directory', () => {
 
             const res = await server.inject('/multiple/package.json');
             expect(res.statusCode).to.equal(200);
-            expect(res.payload).to.contain('name": "@xdq/inert-evbfix"');
+            expect(res.payload).to.contain('name": "@xud6/inert-evbfix"');
         });
 
         it('returns a file when requesting a file from multi directory function response', async () => {
@@ -112,7 +112,7 @@ describe('directory', () => {
 
             const res = await server.inject('/multiple/package.json');
             expect(res.statusCode).to.equal(200);
-            expect(res.payload).to.contain('name": "@xdq/inert-evbfix"');
+            expect(res.payload).to.contain('name": "@xud6/inert-evbfix"');
         });
 
         it('returns 404 when the a fn directory handler returns an empty array', async () => {
