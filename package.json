@@ -1,10 +1,13 @@
 {
   "name": "@xud6/inert-evbfix",
   "description": "inert with enigma virtual box fix",
-  "version": "5.2.1",
+  "version": "6.0.2",
   "repository": "https://github.com/hapijs/inert.git",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
   "keywords": [
     "file",
     "directory",
@@ -13,19 +16,19 @@
     "plugin"
   ],
   "dependencies": {
-    "@hapi/ammo": "3.x.x",
-    "@hapi/boom": "7.x.x",
-    "@hapi/bounce": "1.x.x",
-    "@hapi/hoek": "8.x.x",
-    "@hapi/joi": "15.x.x",
-    "@types/hapi__inert": "^5.2.0",
-    "lru-cache": "4.1.x"
+    "@hapi/ammo": "5.x.x",
+    "@hapi/boom": "9.x.x",
+    "@hapi/bounce": "2.x.x",
+    "@hapi/hoek": "9.x.x",
+    "@hapi/validate": "1.x.x",
+    "@types/hapi__inert": "5.x.x",
+    "lru-cache": "5.x.x"
   },
   "devDependencies": {
-    "@hapi/code": "5.x.x",
-    "@hapi/file": "1.x.x",
-    "@hapi/hapi": "18.x.x",
-    "@hapi/lab": "19.x.x"
+    "@hapi/code": "8.x.x",
+    "@hapi/file": "2.x.x",
+    "@hapi/hapi": "19.x.x",
+    "@hapi/lab": "23.x.x"
   },
   "scripts": {
     "test": "lab -f -a @hapi/code -t 100 -L",
